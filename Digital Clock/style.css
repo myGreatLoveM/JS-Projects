@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+body {
+    background: #131313;
+}
+
+.clock {
+    /* border: 1px solid #111111; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.heading {
+    color: #F5F5F5;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.time {
+    background: #090909;
+    color: #FFFFFF;
+    font-size: 80px;
+    width: 150px;
+    text-align: center;
+    margin: 0px 10px;
+}
+
